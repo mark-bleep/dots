@@ -5,9 +5,9 @@ services:
     restart: unless-stopped
     environment:
       - NODE_ENV=production
-      - VIRTUAL_HOST=shop.theminingking.com
-      - LETSENCRYPT_HOST=shop.theminingking.com
-      - LETSENCRYPT_EMAIL=daniel@example.com
+      - VIRTUAL_HOST=bitxmr.com
+      - LETSENCRYPT_HOST=bitxmr.com
+      - LETSENCRYPT_EMAIL=email@bitxmr.com
     volumes:
       - .:/home/node
       - /home/node/node_modules
